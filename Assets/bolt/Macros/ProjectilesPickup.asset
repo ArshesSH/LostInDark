@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1893448595, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: ProjectilesPickup
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":0.0,"y":0.0},"zoom":1.0,"elements":[{"nest":{"source":"Macro","macro":0,"embed":null},"defaultValues":{"name":null},"position":{"x":30.0,"y":-96.0},"guid":"756d76ef-65a6-4804-a990-ca2f6635b1ee","$version":"A","$type":"Bolt.SuperUnit","$id":"9"},{"type":"System.String","value":{"$content":"ProjectilesPickup","$type":"System.String"},"defaultValues":{},"position":{"x":-200.0,"y":-99.0},"guid":"b9ecdca7-482e-405a-8975-c7f799a4200d","$version":"A","$type":"Bolt.Literal","$id":"12"},{"sourceUnit":{"$ref":"12"},"sourceKey":"output","destinationUnit":{"$ref":"9"},"destinationKey":"name","guid":"a985cb21-d110-4262-a314-c2a8f9508489","$type":"Bolt.ValueConnection"}],"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: 9954c4ba69821ff47a23c144e05c33ff, type: 2}
