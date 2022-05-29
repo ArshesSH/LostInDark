@@ -8,6 +8,7 @@ TagManager:
   - Platform
   - Projectile
   - Key
+  - checkbox
   layers:
   - Default
   - TransparentFX

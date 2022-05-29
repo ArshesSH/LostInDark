@@ -958,15 +958,15 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1015489918002617157, guid: 0919ca7a5e543754b8993ecb1697bbc3,
+    - target: {fileID: 5453900968715778257, guid: 0919ca7a5e543754b8993ecb1697bbc3,
         type: 3}
-      propertyPath: m_RootOrder
-      value: 1
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5453900968715778257, guid: 0919ca7a5e543754b8993ecb1697bbc3,
         type: 3}
-      propertyPath: m_Name
-      value: Check
+      propertyPath: m_TagString
+      value: checkbox
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0919ca7a5e543754b8993ecb1697bbc3, type: 3}
