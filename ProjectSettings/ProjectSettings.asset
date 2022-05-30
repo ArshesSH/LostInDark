@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 20
-  productGUID: 9d074080d5b3d524a947649d2bb385ae
+  productGUID: 7dda27d14173ca64084e36433d883f84
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -253,7 +253,7 @@ PlayerSettings:
   iOSRequireARKit: 0
   iOSAutomaticallyDetectAndAddCapabilities: 1
   appleEnableProMotion: 0
-  clonedFromGUID: 8adcb50f7e3abc64eb0ea8e338d6d840
+  clonedFromGUID: 05fd004f2529b444d82d947846cf1ff0
   templatePackageId: 
   templateDefaultScene: 
   AndroidTargetArchitectures: 5

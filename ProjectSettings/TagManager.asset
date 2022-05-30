@@ -5,9 +5,6 @@ TagManager:
   serializedVersion: 2
   tags:
   - Enemy
-  - Platform
-  - Projectile
-  - Key
   layers:
   - Default
   - TransparentFX
@@ -30,15 +27,15 @@ TagManager:
   - BossWeakPoint
   - Bullet
   - 
-  - Enemies
-  - PlayerInvincible
   - 
   - 
   - 
   - 
   - 
   - 
-  - Platforms
+  - 
+  - 
+  - 
   - PlayerDrop
   - Platform
   m_SortingLayers:
