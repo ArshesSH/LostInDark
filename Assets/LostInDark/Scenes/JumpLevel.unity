@@ -197,6 +197,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 894118400, guid: 61a25e5beda1ed64d97b77c5274c203c, type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"collection":{"$content":[{"name":"Speed","value":{"$content":5.0,"$type":"System.Single"},"$version":"A"},{"name":"Jump","value":{"$content":12.0,"$type":"System.Single"},"$version":"A"},{"name":"HasKey","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"Health","value":{"$content":3,"$type":"System.Int32"},"$version":"A"},{"name":"ProjectilesPickup","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      objectReference: {fileID: 0}
     - target: {fileID: 1784235645598328, guid: 61a25e5beda1ed64d97b77c5274c203c, type: 3}
       propertyPath: m_Name
       value: JumpPlayer
