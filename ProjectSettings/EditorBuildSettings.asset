@@ -23,4 +23,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/bolt/Scenes/Menu.unity
     guid: e6a42748a35ed1345846cb86334ea999
+  - enabled: 1
+    path: Assets/2DGamekit/Scenes/UI/UIMenus.unity
+    guid: 705f1f73151a73046842d4e4ec8f514d
+  - enabled: 1
+    path: Assets/LostInDark/Scenes/UIMenu.unity
+    guid: 9d3ddeb1a286e6c4db86491ed7201470
   m_configObjects: {}
