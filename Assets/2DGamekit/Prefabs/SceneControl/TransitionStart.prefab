@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4696248495692548}
   - component: {fileID: 61522613122602300}
-  - component: {fileID: 114634906093864604}
   m_Layer: 0
   m_Name: TransitionStart
   m_TagString: Untagged
@@ -58,32 +57,3 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!114 &114634906093864604
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1357201792586988}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 669cc1f85c2f463459fe05d2c53835cb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  transitioningGameObject: {fileID: 0}
-  transitionType: 0
-  newSceneName: HUD
-  transitionDestinationTag: 0
-  destinationTransform: {fileID: 0}
-  transitionWhen: 2
-  resetInputValuesOnTransition: 1
-  requiresInventoryCheck: 0
-  inventoryController: {fileID: 0}
-  inventoryCheck:
-    inventoryItems: []
-    OnHasItem:
-      m_PersistentCalls:
-        m_Calls: []
-    OnDoesNotHaveItem:
-      m_PersistentCalls:
-        m_Calls: []
