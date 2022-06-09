@@ -36,6 +36,9 @@ EditorBuildSettings:
     path: Assets/bolt/Scenes/TestLoading.unity
     guid: 0f45d3eb2952fc642ab4430ecdbb3c5a
   - enabled: 1
-    path: Assets/LostInDark/Scenes/TestStart.unity
+    path: Assets/LostInDark/Scenes/BaseLevel.unity
+    guid: aa68a8751a295534e9595b2450bfed6e
+  - enabled: 1
+    path: Assets/LostInDark/Scenes/StartMenu.unity
     guid: 2f7c2af4f6b3657409f4701587cd42b3
   m_configObjects: {}
