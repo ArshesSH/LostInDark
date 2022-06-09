@@ -23,4 +23,19 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/bolt/Scenes/Menu.unity
     guid: e6a42748a35ed1345846cb86334ea999
+  - enabled: 1
+    path: Assets/2DGamekit/Scenes/UI/UIMenus.unity
+    guid: 705f1f73151a73046842d4e4ec8f514d
+  - enabled: 1
+    path: Assets/LostInDark/Scenes/UIMenu.unity
+    guid: 9d3ddeb1a286e6c4db86491ed7201470
+  - enabled: 1
+    path: Assets/LostInDark/Scenes/MenuLevel.unity
+    guid: d0f7ffb6b02dd7343980c018277f3789
+  - enabled: 1
+    path: Assets/bolt/Scenes/TestLoading.unity
+    guid: 0f45d3eb2952fc642ab4430ecdbb3c5a
+  - enabled: 1
+    path: Assets/LostInDark/Scenes/TestStart.unity
+    guid: 2f7c2af4f6b3657409f4701587cd42b3
   m_configObjects: {}
