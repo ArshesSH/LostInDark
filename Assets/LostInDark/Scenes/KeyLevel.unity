@@ -447,6 +447,66 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &264319360
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 264319363}
+  - component: {fileID: 264319362}
+  - component: {fileID: 264319361}
+  m_Layer: 0
+  m_Name: Scene Variables
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &264319361
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 264319360}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 995777834, guid: c8d0ad23af520fe46aabe2b1fecf6462, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &264319362
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 264319360}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1465209106, guid: c8d0ad23af520fe46aabe2b1fecf6462, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"declarations":{"collection":{"$content":[{"name":"Key","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 1278381260}
+--- !u!4 &264319363
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 264319360}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &294703441
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1029,15 +1089,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4589896805844176, guid: 6dc95ddc997a1444491c3a9c36d76611, type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 4589896805844176, guid: 6dc95ddc997a1444491c3a9c36d76611, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -15.7
+      value: -15.700012
       objectReference: {fileID: 0}
     - target: {fileID: 4589896805844176, guid: 6dc95ddc997a1444491c3a9c36d76611, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.61
+      value: -2.6100006
       objectReference: {fileID: 0}
     - target: {fileID: 4589896805844176, guid: 6dc95ddc997a1444491c3a9c36d76611, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1049,15 +1109,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4589896805844176, guid: 6dc95ddc997a1444491c3a9c36d76611, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 4589896805844176, guid: 6dc95ddc997a1444491c3a9c36d76611, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 4589896805844176, guid: 6dc95ddc997a1444491c3a9c36d76611, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 4589896805844176, guid: 6dc95ddc997a1444491c3a9c36d76611, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1602,6 +1662,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5863488986625756257, guid: 5d9bbcc3e0afa8d41895de10067d57b5,
+        type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"collection":{"$content":[{"name":"KeyUI","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"HealthUI","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"KEY","value":{"$content":2,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5863488986625756257, guid: 5d9bbcc3e0afa8d41895de10067d57b5,
+        type: 3}
+      propertyPath: _data._objectReferences.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5863488986625756257, guid: 5d9bbcc3e0afa8d41895de10067d57b5,
+        type: 3}
+      propertyPath: _data._objectReferences.Array.data[2]
+      value: 
+      objectReference: {fileID: 1278381260}
     - target: {fileID: 5863488987096922329, guid: 5d9bbcc3e0afa8d41895de10067d57b5,
         type: 3}
       propertyPath: _data._json
@@ -1657,6 +1732,12 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4186612075757620, guid: 9717de1766ffd6542a7ea6aab3db2612,
     type: 3}
   m_PrefabInstance: {fileID: 166865940}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1278381260 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1357314051033048, guid: 6dc95ddc997a1444491c3a9c36d76611,
+    type: 3}
+  m_PrefabInstance: {fileID: 683399165}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1284385316
 PrefabInstance:
@@ -1795,7 +1876,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4173568434705544, guid: 62e22529791ccaa468bcf8c792d676d5, type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4173568434705544, guid: 62e22529791ccaa468bcf8c792d676d5, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2421,7 +2502,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1950907226
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2447,7 +2528,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"Scene","value":{"$content":0.0,"$type":"System.Single"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!4 &1950907228
 Transform:
@@ -2479,7 +2560,7 @@ PrefabInstance:
     - target: {fileID: 5375949088336912209, guid: 58afde85c894dd14c9df23d2978eba60,
         type: 3}
       propertyPath: m_RootOrder
-      value: 8
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5375949088336912209, guid: 58afde85c894dd14c9df23d2978eba60,
         type: 3}
@@ -2535,6 +2616,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Door
+      objectReference: {fileID: 0}
+    - target: {fileID: 5375949088336912221, guid: 58afde85c894dd14c9df23d2978eba60,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 58afde85c894dd14c9df23d2978eba60, type: 3}
