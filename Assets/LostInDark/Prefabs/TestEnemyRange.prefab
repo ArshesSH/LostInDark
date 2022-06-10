@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 7400935018047278838}
   - component: {fileID: 2694368387324552098}
   m_Layer: 21
-  m_Name: TestEnemy
+  m_Name: TestEnemyRange
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -75,7 +75,7 @@ SpriteRenderer:
   m_SortingLayerID: 1401015027
   m_SortingLayer: 0
   m_SortingOrder: 5
-  m_Sprite: {fileID: 21300000, guid: f7636f79f29fce1469dfb21774e2b9d7, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 70036f2bc0a3c1641bcfcdfe41364ebf, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -96,7 +96,7 @@ Animator:
   m_GameObject: {fileID: 1618294266951460}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 7b319f218a9aaaa43a26c4de6b59e75b, type: 2}
+  m_Controller: {fileID: 9100000, guid: 2fbde4d56c29cc54eaeef0da4617f922, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0

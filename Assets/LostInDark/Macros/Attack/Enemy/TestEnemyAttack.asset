@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1893448595, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: TestEnemyAttack
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[{"hasDefaultValue":true,"defaultValue":{"$content":0,"$type":"System.Int32"},"_type":"System.Int32","key":"Direction","label":null,"summary":null,"hideLabel":false}],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":-405.5393,"y":233.9803},"zoom":0.8,"elements":[{"coroutine":false,"defaultValues":{},"position":{"x":-808.0,"y":-118.0},"guid":"75a4aca4-a586-43ee-840d-f7aced7a24af","$version":"A","$type":"Bolt.Update"},{"defaultValues":{},"position":{"x":-754.0,"y":107.0},"guid":"6187582d-d5c5-4d14-9833-3326b740ae76","$version":"A","$type":"Bolt.ScalarNormalize","$id":"12"},{"defaultValues":{},"position":{"x":-972.0,"y":107.0},"guid":"77eca35b-a3de-45f8-9733-edfe53cdf509","$version":"A","$type":"Bolt.GraphInput","$id":"14"},{"sourceUnit":{"$ref":"14"},"sourceKey":"Direction","destinationUnit":{"$ref":"12"},"destinationKey":"input","guid":"9ad9a2dd-c441-46cf-a738-1a3005232d25","$type":"Bolt.ValueConnection"}],"$version":"A"}}'
+    _objectReferences: []
