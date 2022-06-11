@@ -9,12 +9,21 @@ EditorBuildSettings:
     path: Assets/LostInDark/Scenes/UIMenu.unity
     guid: 9d3ddeb1a286e6c4db86491ed7201470
   - enabled: 1
-    path: Assets/LostInDark/Scenes/KeyLevel.unity
-    guid: 564e5363e69014941b51274134ef6a6c
-  - enabled: 1
     path: Assets/LostInDark/Scenes/MenuLevel.unity
     guid: d0f7ffb6b02dd7343980c018277f3789
   - enabled: 1
     path: Assets/LostInDark/Scenes/StartMenu.unity
     guid: 2f7c2af4f6b3657409f4701587cd42b3
+  - enabled: 1
+    path: Assets/LostInDark/Scenes/KeyLevel.unity
+    guid: 564e5363e69014941b51274134ef6a6c
+  - enabled: 1
+    path: Assets/LostInDark/Scenes/KeyLevel 1.unity
+    guid: 7003e7cd523aaba4e836baf59b4c867a
+  - enabled: 1
+    path: Assets/LostInDark/Scenes/KeyLevel 2.unity
+    guid: a23cd12a8e8edab409155bef73e53ce7
+  - enabled: 1
+    path: Assets/LostInDark/Scenes/KeyLevel 3.unity
+    guid: 9506eb225c238cc4680e6e2301883d4a
   m_configObjects: {}
