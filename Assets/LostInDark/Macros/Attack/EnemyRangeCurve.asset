@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 1083378141, guid: dcd2196c4e9166f499793f2007fcda35, type: 3}
-  m_Name: EnemyRange
+  m_Name: EnemyRangeCurve
   m_EditorClassIdentifier: 
   _data:
     _json: '{"graph":{"title":null,"summary":null,"pan":{"x":-319.0,"y":23.0},"zoom":1.0,"elements":[{"nest":{"source":"Embed","macro":null,"embed":{"title":"Alive","summary":"\ubaac\uc2a4\ud130\uac00
