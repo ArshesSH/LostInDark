@@ -1651,6 +1651,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TestEnemyRange
       objectReference: {fileID: 0}
+    - target: {fileID: 1618294266951460, guid: 388c0ba671baa0f4b8b9ed25a42404ec, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4186612075757620, guid: 388c0ba671baa0f4b8b9ed25a42404ec, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -1694,6 +1698,11 @@ PrefabInstance:
     - target: {fileID: 4186612075757620, guid: 388c0ba671baa0f4b8b9ed25a42404ec, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7400935018047278838, guid: 388c0ba671baa0f4b8b9ed25a42404ec,
+        type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"collection":{"$content":[{"name":"Speed","value":{"$content":1,"$type":"System.Int32"},"$version":"A"},{"name":"Detection","value":{"$content":5.0,"$type":"System.Single"},"$version":"A"},{"name":"Health","value":{"$content":3,"$type":"System.Int32"},"$version":"A"},{"name":"AttackDetection","value":{"$content":2.0,"$type":"System.Single"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 388c0ba671baa0f4b8b9ed25a42404ec, type: 3}
@@ -2001,11 +2010,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4186612075757620, guid: 9717de1766ffd6542a7ea6aab3db2612, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.97
+      value: -1.32
       objectReference: {fileID: 0}
     - target: {fileID: 4186612075757620, guid: 9717de1766ffd6542a7ea6aab3db2612, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.62
+      value: -1.77
       objectReference: {fileID: 0}
     - target: {fileID: 4186612075757620, guid: 9717de1766ffd6542a7ea6aab3db2612, type: 3}
       propertyPath: m_LocalPosition.z
