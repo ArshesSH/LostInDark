@@ -3149,7 +3149,7 @@ BlendTree:
   m_Name: LocomotionWithGunBlendTree
   m_Childs:
   - serializedVersion: 2
-    m_Motion: {fileID: 7400000, guid: ceabdafc8eba10243b4167423b7bdcf2, type: 2}
+    m_Motion: {fileID: 7400000, guid: bcbc006e3a6f8bd4ca8c43c4ab66bf80, type: 2}
     m_Threshold: -0.0001
     m_Position: {x: 0, y: 0}
     m_TimeScale: 1
@@ -3165,14 +3165,14 @@ BlendTree:
     m_DirectBlendParameter: HorizontalSpeed
     m_Mirror: 0
   - serializedVersion: 2
-    m_Motion: {fileID: 7400000, guid: ceabdafc8eba10243b4167423b7bdcf2, type: 2}
+    m_Motion: {fileID: 7400000, guid: bcbc006e3a6f8bd4ca8c43c4ab66bf80, type: 2}
     m_Threshold: 0.0001
     m_Position: {x: 0, y: 0}
     m_TimeScale: 1
     m_CycleOffset: 0
     m_DirectBlendParameter: HorizontalSpeed
     m_Mirror: 0
-  m_BlendParameter: HorizontalSpeed
+  m_BlendParameter: Speed
   m_BlendParameterY: velocityX
   m_MinThreshold: -0.0001
   m_MaxThreshold: 0.0001
