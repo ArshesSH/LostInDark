@@ -8,8 +8,7 @@ TagManager:
   - Platform
   - Projectile
   - Key
-  - MeleeWeapon
-  - checkbox
+  - PushableBlock
   layers:
   - Default
   - TransparentFX
@@ -31,10 +30,10 @@ TagManager:
   - EnemyWeapon
   - BossWeakPoint
   - Bullet
-  - MeleeWeapon
+  - 
   - Enemies
   - PlayerInvincible
-  - PlayerJumpDown
+  - 
   - 
   - 
   - 
