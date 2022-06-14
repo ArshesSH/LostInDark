@@ -10,8 +10,9 @@ GameObject:
   m_Component:
   - component: {fileID: 4807972532194250}
   - component: {fileID: 120764625896985688}
-  - component: {fileID: 114814292838544154}
-  m_Layer: 0
+  - component: {fileID: 8400031539143756918}
+  - component: {fileID: 5642694803610721138}
+  m_Layer: 21
   m_Name: Start
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -129,7 +130,7 @@ LineRenderer:
     generateLightingData: 0
   m_UseWorldSpace: 0
   m_Loop: 0
---- !u!114 &114814292838544154
+--- !u!114 &8400031539143756918
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -138,13 +139,29 @@ MonoBehaviour:
   m_GameObject: {fileID: 1256598584301702}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ab369be0d39c5e0448971bf91bac9ed7, type: 3}
+  m_Script: {fileID: -1465209106, guid: c8d0ad23af520fe46aabe2b1fecf6462, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  end: {fileID: 4477566428151472}
-  updateInterval: 0.05
-  pointCount: 20
-  randomOffset: 0.5
+  _data:
+    _json: '{"declarations":{"collection":{"$content":[{"name":"end","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"updateInterval","value":{"$content":0.05,"$type":"System.Single"},"$version":"A"},{"name":"pointCount","value":{"$content":20,"$type":"System.Int32"},"$version":"A"},{"name":"randomOffset","value":{"$content":0.5,"$type":"System.Single"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 4477566428151472}
+--- !u!114 &5642694803610721138
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1256598584301702}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -57143145, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: c5de9c19bdc2da04496d30b87423086c, type: 2}
 --- !u!1 &1279781621642594
 GameObject:
   m_ObjectHideFlags: 0
@@ -155,8 +172,9 @@ GameObject:
   m_Component:
   - component: {fileID: 4669909902884178}
   - component: {fileID: 120067592740849308}
-  - component: {fileID: 114486046204119558}
-  m_Layer: 0
+  - component: {fileID: 7109599925444512229}
+  - component: {fileID: 8952279661039597171}
+  m_Layer: 21
   m_Name: Start (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -274,7 +292,7 @@ LineRenderer:
     generateLightingData: 0
   m_UseWorldSpace: 0
   m_Loop: 0
---- !u!114 &114486046204119558
+--- !u!114 &7109599925444512229
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -283,13 +301,29 @@ MonoBehaviour:
   m_GameObject: {fileID: 1279781621642594}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ab369be0d39c5e0448971bf91bac9ed7, type: 3}
+  m_Script: {fileID: -1465209106, guid: c8d0ad23af520fe46aabe2b1fecf6462, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  end: {fileID: 4938239525765294}
-  updateInterval: 0.05
-  pointCount: 10
-  randomOffset: 0.5
+  _data:
+    _json: '{"declarations":{"collection":{"$content":[{"name":"end","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"updateInterval","value":{"$content":0.05,"$type":"System.Single"},"$version":"A"},{"name":"pointCount","value":{"$content":10,"$type":"System.Int32"},"$version":"A"},{"name":"randomOffset","value":{"$content":0.5,"$type":"System.Single"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 4938239525765294}
+--- !u!114 &8952279661039597171
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1279781621642594}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -57143145, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: c5de9c19bdc2da04496d30b87423086c, type: 2}
 --- !u!1 &1385887315413462
 GameObject:
   m_ObjectHideFlags: 0
@@ -299,9 +333,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4469272928664028}
-  m_Layer: 0
+  - component: {fileID: 5846254960771107909}
+  - component: {fileID: 1394994752430812060}
+  - component: {fileID: 4637001481717584450}
+  m_Layer: 21
   m_Name: BossGunnerLightning
-  m_TagString: Untagged
+  m_TagString: Projectile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -314,7 +351,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1385887315413462}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 33.48151, y: 1.6327832, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4955871871299570}
@@ -325,6 +362,67 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5846254960771107909
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1385887315413462}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1465209106, guid: c8d0ad23af520fe46aabe2b1fecf6462, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"declarations":{"collection":{"$content":[{"name":"Direction","value":{"$content":0.0,"$type":"System.Single"},"$version":"A"},{"name":"Speed","value":{"$content":10.0,"$type":"System.Single"},"$version":"A"},{"name":"LifeTime","value":{"$content":3,"$type":"System.Int32"},"$version":"A"},{"name":"shotType","value":{"$content":1,"$type":"System.Int32"},"$version":"A"},{"name":"LightningFloor","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"StartList","value":{"$content":[{"$content":1,"$type":"UnityEngine.Object"},{"$content":2,"$type":"UnityEngine.Object"},{"$content":3,"$type":"UnityEngine.Object"}],"$type":"Ludiq.AotList"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 4680965145537298}
+    - {fileID: 4955871871299570}
+    - {fileID: 4669909902884178}
+    - {fileID: 4807972532194250}
+--- !u!114 &1394994752430812060
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1385887315413462}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -57143145, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: 5b50e15b150699e41a0eaf6373862653, type: 2}
+--- !u!61 &4637001481717584450
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1385887315413462}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -10.46, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 9.85, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &1466858919692398
 GameObject:
   m_ObjectHideFlags: 0
@@ -334,7 +432,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4680965145537298}
-  m_Layer: 0
+  m_Layer: 21
   m_Name: LightningFloor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -368,10 +466,9 @@ GameObject:
   m_Component:
   - component: {fileID: 4955871871299570}
   - component: {fileID: 120835154713895176}
-  - component: {fileID: 114481353479521874}
   - component: {fileID: 3403932384015661413}
   - component: {fileID: 2727958300589819265}
-  m_Layer: 0
+  m_Layer: 21
   m_Name: Start
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -489,22 +586,6 @@ LineRenderer:
     generateLightingData: 0
   m_UseWorldSpace: 0
   m_Loop: 0
---- !u!114 &114481353479521874
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1514174619811984}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ab369be0d39c5e0448971bf91bac9ed7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  end: {fileID: 4374437139810312}
-  updateInterval: 0.05
-  pointCount: 10
-  randomOffset: 0.5
 --- !u!114 &3403932384015661413
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -518,7 +599,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"end","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"updateInterval","value":{"$content":0.5,"$type":"System.Single"},"$version":"A"},{"name":"pointCount","value":{"$content":10,"$type":"System.Int32"},"$version":"A"},{"name":"randomOffset","value":{"$content":0.5,"$type":"System.Single"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"end","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"updateInterval","value":{"$content":0.05,"$type":"System.Single"},"$version":"A"},{"name":"pointCount","value":{"$content":10,"$type":"System.Int32"},"$version":"A"},{"name":"randomOffset","value":{"$content":0.5,"$type":"System.Single"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 4374437139810312}
 --- !u!114 &2727958300589819265
@@ -546,7 +627,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4374437139810312}
-  m_Layer: 0
+  m_Layer: 21
   m_Name: End
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -576,7 +657,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4938239525765294}
-  m_Layer: 0
+  m_Layer: 21
   m_Name: End (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -607,13 +688,13 @@ GameObject:
   m_Component:
   - component: {fileID: 4777302855019128}
   - component: {fileID: 212556118070225446}
-  m_Layer: 0
+  m_Layer: 21
   m_Name: SoftSquare
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &4777302855019128
 Transform:
   m_ObjectHideFlags: 0
@@ -687,7 +768,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4477566428151472}
-  m_Layer: 0
+  m_Layer: 21
   m_Name: End
   m_TagString: Untagged
   m_Icon: {fileID: 0}
