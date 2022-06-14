@@ -8,9 +8,9 @@ TagManager:
   - Platform
   - Projectile
   - Key
-  - PushableBlock
   - MeleeWeapon
-  - VineWall
+  - checkbox
+  - Door
   layers:
   - Default
   - TransparentFX
@@ -32,11 +32,11 @@ TagManager:
   - EnemyWeapon
   - BossWeakPoint
   - Bullet
-  - 
+  - MeleeWeapon
   - Enemies
   - PlayerInvincible
   - 
-  - vine wall
+  - 
   - 
   - 
   - 
