@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1893448595, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: RunParticleSystem
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":0.0,"y":2.40048},"zoom":1.0,"elements":[{"argumentCount":0,"coroutine":false,"defaultValues":{"target":null,"name":{"$content":"RunParticle","$type":"System.String"}},"position":{"x":-484.0,"y":-141.0},"guid":"ca8af83f-dece-4930-98ec-cd1f9ba4c5e8","$version":"A","$type":"Bolt.CustomEvent","$id":"9"},{"defaultValues":{"duration":{"$content":0.1,"$type":"System.Single"},"unscaledTime":{"$content":false,"$type":"System.Boolean"}},"position":{"x":-176.0,"y":-198.0},"guid":"6162f485-34b6-4171-8750-992748d52d6c","$version":"A","$type":"Bolt.Timer","$id":"11"},{"chainable":false,"member":{"name":"Play","parameterTypes":[],"targetType":"UnityEngine.ParticleSystem","targetTypeName":"UnityEngine.ParticleSystem","$version":"A"},"defaultValues":{"target":null},"position":{"x":163.0,"y":-155.0},"guid":"4034becb-757d-4df9-9285-5e6a8a6ccc47","$version":"A","$type":"Bolt.InvokeMember","$id":"13"},{"argumentCount":0,"coroutine":false,"defaultValues":{"target":null,"name":{"$content":"StopParticle","$type":"System.String"}},"position":{"x":-475.0,"y":108.0},"guid":"a6aa9d7e-e52b-4baf-b5d1-32ac277167de","$version":"A","$type":"Bolt.CustomEvent","$id":"16"},{"defaultValues":{"duration":{"$content":0.1,"$type":"System.Single"},"unscaledTime":{"$content":false,"$type":"System.Boolean"}},"position":{"x":-167.0,"y":51.0},"guid":"c0d499b9-e42d-4975-b143-2aed218ea156","$version":"A","$type":"Bolt.Timer","$id":"18"},{"chainable":false,"member":{"name":"Stop","parameterTypes":[],"targetType":"UnityEngine.ParticleSystem","targetTypeName":"UnityEngine.ParticleSystem","$version":"A"},"defaultValues":{"target":null},"position":{"x":143.0,"y":93.0},"guid":"f585aded-0290-46ee-8baa-99a3209c55a6","$version":"A","$type":"Bolt.InvokeMember","$id":"20"},{"sourceUnit":{"$ref":"9"},"sourceKey":"trigger","destinationUnit":{"$ref":"11"},"destinationKey":"toggle","guid":"07241b27-7d0a-4464-85fe-24f676531f7a","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"11"},"sourceKey":"completed","destinationUnit":{"$ref":"13"},"destinationKey":"enter","guid":"cbb5b61a-4a49-4606-8f65-07a6df1e5599","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"16"},"sourceKey":"trigger","destinationUnit":{"$ref":"18"},"destinationKey":"toggle","guid":"8f2b311b-02a2-49f1-b917-c58cae078851","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"18"},"sourceKey":"completed","destinationUnit":{"$ref":"20"},"destinationKey":"enter","guid":"774dc084-9d2d-473a-b08f-f18193296824","$type":"Bolt.ControlConnection"}],"$version":"A"}}'
+    _objectReferences: []
