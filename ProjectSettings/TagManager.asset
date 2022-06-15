@@ -10,6 +10,7 @@ TagManager:
   - Key
   - MeleeWeapon
   - checkbox
+  - load
   layers:
   - Default
   - TransparentFX
