@@ -11,6 +11,7 @@ TagManager:
   - MeleeWeapon
   - checkbox
   - Door
+  - PushableBlock
   layers:
   - Default
   - TransparentFX
