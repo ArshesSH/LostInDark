@@ -516,7 +516,7 @@ MonoBehaviour:
     m_ImpactRadius: 10
     m_DirectionMode: 0
     m_DissipationMode: 2
-    m_DissipationDistance: 10
+    m_DissipationDistance: 25
 --- !u!1001 &1995782087492200536
 PrefabInstance:
   m_ObjectHideFlags: 0
