@@ -2425,7 +2425,7 @@ AnimatorStateTransition:
   m_Mute: 0
   m_IsExit: 0
   serializedVersion: 3
-  m_TransitionDuration: 0
+  m_TransitionDuration: 0.08777779
   m_TransitionOffset: 0
   m_ExitTime: 0
   m_HasExitTime: 0
@@ -2491,7 +2491,7 @@ AnimatorState:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Walk
-  m_Speed: 0.75
+  m_Speed: 1
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: 1101062296245019036}
@@ -2511,7 +2511,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 0c8058232f83c1246b45a535765e862f, type: 2}
+  m_Motion: {fileID: 7400000, guid: 58e36cdd187abdb428582a5897ceff53, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -3940,7 +3940,7 @@ BlendTree:
   m_Name: LocomotionWithGunBlendTree
   m_Childs:
   - serializedVersion: 2
-    m_Motion: {fileID: 7400000, guid: 97891fb0a3cf5a146a59c998852091d2, type: 2}
+    m_Motion: {fileID: 7400000, guid: 9c6390d00971e7541ac2ce4ec622cd68, type: 2}
     m_Threshold: -0.0001
     m_Position: {x: 0, y: 0}
     m_TimeScale: 1
@@ -3956,7 +3956,7 @@ BlendTree:
     m_DirectBlendParameter: HorizontalSpeed
     m_Mirror: 0
   - serializedVersion: 2
-    m_Motion: {fileID: 7400000, guid: 97891fb0a3cf5a146a59c998852091d2, type: 2}
+    m_Motion: {fileID: 7400000, guid: 9c6390d00971e7541ac2ce4ec622cd68, type: 2}
     m_Threshold: 0.0001
     m_Position: {x: 0, y: 0}
     m_TimeScale: 1
