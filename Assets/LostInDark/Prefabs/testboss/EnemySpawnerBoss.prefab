@@ -476,6 +476,47 @@ MonoBehaviour:
   _data:
     _json: '{"nest":{"source":"Embed","macro":null,"embed":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":0.0,"y":-187.6279},"zoom":1.0,"elements":[{"coroutine":false,"defaultValues":{"name":{"$content":"spawn","$type":"System.String"}},"position":{"x":-340.0,"y":-70.0},"guid":"b278e720-1af3-4055-939f-fde196b94b2c","$version":"A","$type":"Bolt.BoltNamedAnimationEvent","$id":"10"},{"chainable":false,"member":{"name":"SetActive","parameterTypes":["System.Boolean"],"targetType":"UnityEngine.GameObject","targetTypeName":"UnityEngine.GameObject","$version":"A"},"defaultValues":{"target":null,"%value":{"$content":false,"$type":"System.Boolean"}},"position":{"x":508.0,"y":-70.0},"guid":"906d46eb-829c-46e3-8856-04520bf3db7e","$version":"A","$type":"Bolt.InvokeMember","$id":"12"},{"specifyFallback":false,"kind":"Object","defaultValues":{"name":{"$content":"boss","$type":"System.String"},"object":null},"position":{"x":34.0,"y":55.0},"guid":"c9b63b3f-8586-485d-9304-c9787de68e36","$version":"A","$type":"Bolt.GetVariable","$id":"15"},{"chainable":false,"member":{"name":"SetActive","parameterTypes":["System.Boolean"],"targetType":"UnityEngine.GameObject","targetTypeName":"UnityEngine.GameObject","$version":"A"},"defaultValues":{"target":null,"%value":{"$content":true,"$type":"System.Boolean"}},"position":{"x":34.0,"y":-75.0},"guid":"18a3800a-e962-4836-b974-b42f1239d6d1","$version":"A","$type":"Bolt.InvokeMember","$id":"17"},{"specifyFallback":false,"kind":"Object","defaultValues":{"name":{"$content":"boss","$type":"System.String"},"object":null},"position":{"x":356.0,"y":66.0},"guid":"4c49e775-dd31-42d1-afc8-db8ad48cf4fd","$version":"A","$type":"Bolt.GetVariable","$id":"20"},{"specifyFallback":false,"kind":"Object","defaultValues":{"name":{"$content":"UI","$type":"System.String"},"object":null},"position":{"x":354.0,"y":189.0},"guid":"8721eb77-49dd-41b6-8990-917d7cca83b2","$version":"A","$type":"Bolt.GetVariable","$id":"22"},{"chainable":false,"member":{"name":"SetActive","parameterTypes":["System.Boolean"],"targetType":"UnityEngine.GameObject","targetTypeName":"UnityEngine.GameObject","$version":"A"},"defaultValues":{"target":null,"%value":{"$content":true,"$type":"System.Boolean"}},"position":{"x":339.0,"y":-71.0},"guid":"5d976a99-e303-4401-ad5d-27a16d57f489","$version":"A","$type":"Bolt.InvokeMember","$id":"24"},{"sourceUnit":{"$ref":"24"},"sourceKey":"exit","destinationUnit":{"$ref":"12"},"destinationKey":"enter","guid":"a90b67a3-c357-4547-8412-19813e4a6de9","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"17"},"sourceKey":"exit","destinationUnit":{"$ref":"24"},"destinationKey":"enter","guid":"25eff628-9864-409c-8d09-86af4a189989","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"10"},"sourceKey":"trigger","destinationUnit":{"$ref":"17"},"destinationKey":"enter","guid":"0c091fd3-0262-47c1-8f30-53c186def85e","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"15"},"sourceKey":"value","destinationUnit":{"$ref":"17"},"destinationKey":"target","guid":"e8f74fb4-88a8-47f6-9dc4-269d8a338a7e","$type":"Bolt.ValueConnection"},{"sourceUnit":{"$ref":"20"},"sourceKey":"value","destinationUnit":{"$ref":"22"},"destinationKey":"object","guid":"4cbcc9c4-8870-4b88-8761-df9673189678","$type":"Bolt.ValueConnection"},{"sourceUnit":{"$ref":"22"},"sourceKey":"value","destinationUnit":{"$ref":"24"},"destinationKey":"target","guid":"4e45496e-210b-4d40-a6ab-5d41c8206656","$type":"Bolt.ValueConnection"}],"$version":"A"}}}'
     _objectReferences: []
+--- !u!114 &379203590
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1997292456162914516}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 180ecf9b41d478f468eb3e9083753217, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ImpulseDefinition:
+    m_ImpulseChannel: 1
+    m_RawSignal: {fileID: 11400000, guid: 8eed30cdc7505974eb32ce1778e7a235, type: 2}
+    m_AmplitudeGain: 0.2
+    m_FrequencyGain: 0.5
+    m_RepeatMode: 0
+    m_Randomize: 1
+    m_TimeEnvelope:
+      m_AttackShape:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_DecayShape:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_AttackTime: 0
+      m_SustainTime: 0.1
+      m_DecayTime: 0.3
+      m_ScaleWithImpact: 1
+      m_HoldForever: 0
+    m_ImpactRadius: 10
+    m_DirectionMode: 0
+    m_DissipationMode: 2
+    m_DissipationDistance: 25
 --- !u!1001 &1995782087492200536
 PrefabInstance:
   m_ObjectHideFlags: 0
