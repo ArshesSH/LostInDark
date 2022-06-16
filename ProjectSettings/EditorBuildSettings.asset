@@ -6,39 +6,24 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/bolt/Scenes/HUD.unity
-    guid: 279a8870345208046b22f7aa2b7fe228
-  - enabled: 1
-    path: Assets/bolt/Scenes/Level1.unity
-    guid: 80e5ff8fdbb5a084296e97e2731f0bd0
-  - enabled: 1
-    path: Assets/bolt/Scenes/Level2.unity
-    guid: d0f1403920648594b866544daef165af
-  - enabled: 1
-    path: Assets/bolt/Scenes/Level3.unity
-    guid: 899e2f9ff7821344489cd9cb15bf1f89
-  - enabled: 1
-    path: Assets/bolt/Scenes/Level4.unity
-    guid: 3a9fc8842018d014cb7ce22ded4c574c
-  - enabled: 1
-    path: Assets/bolt/Scenes/Menu.unity
-    guid: e6a42748a35ed1345846cb86334ea999
-  - enabled: 1
-    path: Assets/2DGamekit/Scenes/UI/UIMenus.unity
-    guid: 705f1f73151a73046842d4e4ec8f514d
-  - enabled: 1
     path: Assets/LostInDark/Scenes/UIMenu.unity
     guid: 9d3ddeb1a286e6c4db86491ed7201470
   - enabled: 1
     path: Assets/LostInDark/Scenes/MenuLevel.unity
     guid: d0f7ffb6b02dd7343980c018277f3789
   - enabled: 1
-    path: Assets/bolt/Scenes/TestLoading.unity
-    guid: 0f45d3eb2952fc642ab4430ecdbb3c5a
-  - enabled: 1
-    path: Assets/LostInDark/Scenes/BaseLevel.unity
-    guid: aa68a8751a295534e9595b2450bfed6e
-  - enabled: 1
     path: Assets/LostInDark/Scenes/StartMenu.unity
     guid: 2f7c2af4f6b3657409f4701587cd42b3
+  - enabled: 1
+    path: Assets/LostInDark/Scenes/Stage_3.unity
+    guid: ef6b92272b9cf3148a10ad6915974004
+  - enabled: 1
+    path: Assets/LostInDark/Scenes/Stage_4.unity
+    guid: f71b741127b7d2144b3f5db5b5ed7103
+  - enabled: 1
+    path: Assets/LostInDark/Scenes/Stage_5.unity
+    guid: 79ed39523b7c5214fa04832b79cc55f1
+  - enabled: 1
+    path: Assets/LostInDark/Scenes/Stage_6.unity
+    guid: 36b94a4b893a5824489176735a944d6b
   m_configObjects: {}
