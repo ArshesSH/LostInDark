@@ -36,8 +36,8 @@ TagManager:
   - MeleeWeapon
   - Enemies
   - PlayerInvincible
-  - 
-  - 
+  - PlayerJumpDown
+  - EnemyInvincible
   - 
   - 
   - 
