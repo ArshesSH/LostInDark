@@ -375,7 +375,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"Direction","value":{"$content":0.0,"$type":"System.Single"},"$version":"A"},{"name":"Speed","value":{"$content":10.0,"$type":"System.Single"},"$version":"A"},{"name":"LifeTime","value":{"$content":3,"$type":"System.Int32"},"$version":"A"},{"name":"shotType","value":{"$content":1,"$type":"System.Int32"},"$version":"A"},{"name":"LightningFloor","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"StartList","value":{"$content":[{"$content":1,"$type":"UnityEngine.Object"},{"$content":2,"$type":"UnityEngine.Object"},{"$content":3,"$type":"UnityEngine.Object"}],"$type":"Ludiq.AotList"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"Direction","value":{"$content":0.0,"$type":"System.Single"},"$version":"A"},{"name":"LifeTime","value":{"$content":3,"$type":"System.Int32"},"$version":"A"},{"name":"LightningFloor","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"StartList","value":{"$content":[{"$content":1,"$type":"UnityEngine.Object"},{"$content":2,"$type":"UnityEngine.Object"},{"$content":3,"$type":"UnityEngine.Object"}],"$type":"Ludiq.AotList"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 4680965145537298}
     - {fileID: 4955871871299570}
