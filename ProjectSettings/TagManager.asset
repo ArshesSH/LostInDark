@@ -12,6 +12,7 @@ TagManager:
   - checkbox
   - Door
   - PushableBlock
+  - VineWall
   layers:
   - Default
   - TransparentFX
@@ -41,7 +42,7 @@ TagManager:
   - 
   - 
   - 
-  - 
+  - VineWall
   - Platforms
   - PlayerDrop
   - Platform
