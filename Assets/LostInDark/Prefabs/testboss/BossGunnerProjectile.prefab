@@ -5050,7 +5050,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"Direction","value":{"$content":0.0,"$type":"System.Single"},"$version":"A"},{"name":"Speed","value":{"$content":10.0,"$type":"System.Single"},"$version":"A"},{"name":"LifeTime","value":{"$content":6,"$type":"System.Int32"},"$version":"A"},{"name":"shotType","value":{"$content":2,"$type":"System.Int32"},"$version":"A"},{"name":"PlatformCollitionTime","value":{"$content":0.1,"$type":"System.Single"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"Direction","value":{"$content":0.0,"$type":"System.Single"},"$version":"A"},{"name":"Speed","value":{"$content":10.0,"$type":"System.Single"},"$version":"A"},{"name":"LifeTime","value":{"$content":6,"$type":"System.Int32"},"$version":"A"},{"name":"shotType","value":{"$content":2,"$type":"System.Int32"},"$version":"A"},{"name":"PlatformCollisionTime","value":{"$content":0.1,"$type":"System.Single"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!114 &-7211550023728805930
 MonoBehaviour:
