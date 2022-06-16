@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 61012945287444932}
   - component: {fileID: 7400935018047278838}
   - component: {fileID: 2694368387324552098}
+  - component: {fileID: 8181952369772315707}
   m_Layer: 21
   m_Name: TestEnemyRangeCurve
   m_TagString: Enemy
@@ -165,9 +166,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"Speed","value":{"$content":1,"$type":"System.Int32"},"$version":"A"},{"name":"Detection","value":{"$content":4.0,"$type":"System.Single"},"$version":"A"},{"name":"Health","value":{"$content":3,"$type":"System.Int32"},"$version":"A"},{"name":"AttackDetection","value":{"$content":10.0,"$type":"System.Single"},"$version":"A"},{"name":"Bullet","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"Speed","value":{"$content":1,"$type":"System.Int32"},"$version":"A"},{"name":"Detection","value":{"$content":4.0,"$type":"System.Single"},"$version":"A"},{"name":"Health","value":{"$content":3,"$type":"System.Int32"},"$version":"A"},{"name":"AttackDetection","value":{"$content":10.0,"$type":"System.Single"},"$version":"A"},{"name":"Bullet","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"AttackSoundList","value":{"$content":[{"$content":1,"$type":"UnityEngine.Object"},{"$content":2,"$type":"UnityEngine.Object"},{"$content":3,"$type":"UnityEngine.Object"}],"$type":"Ludiq.AotList"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 1490519385033960, guid: 0c20de0f6b03331419b39533b1a9eda1, type: 3}
+    - {fileID: 8300000, guid: c539814be01106547adfb69ffbf92813, type: 3}
+    - {fileID: 8300000, guid: 483e3145e94a4024382267d950e66a4e, type: 3}
+    - {fileID: 8300000, guid: ca8d70067fe3e8045b1368d231e661c4, type: 3}
 --- !u!114 &2694368387324552098
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -184,3 +188,19 @@ MonoBehaviour:
     _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
     _objectReferences:
     - {fileID: 11400000, guid: 254b5b4a84e5e814aa7170302bf92ed8, type: 2}
+--- !u!114 &8181952369772315707
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1618294266951460}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -57143145, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Embed","macro":null,"embed":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":327.0,"y":62.0},"zoom":1.0,"elements":[{"coroutine":false,"defaultValues":{"name":{"$content":"SpitterStep","$type":"System.String"}},"position":{"x":-97.0,"y":2.0},"guid":"0703539d-5ec2-47e0-a486-5b204c6a547b","$version":"A","$type":"Bolt.BoltNamedAnimationEvent","$id":"10"},{"nest":{"source":"Macro","macro":0,"embed":null},"defaultValues":{},"position":{"x":146.0,"y":2.0},"guid":"ea5aef58-c0ee-4308-ae19-cb40df1228c9","$version":"A","$type":"Bolt.SuperUnit","$id":"12"},{"specifyFallback":false,"kind":"Object","defaultValues":{"name":{"$content":"AttackSoundList","$type":"System.String"},"object":null},"position":{"x":155.0,"y":120.0},"guid":"5f9cdb22-8dbb-490d-872d-09944c42707f","$version":"A","$type":"Bolt.GetVariable","$id":"15"},{"sourceUnit":{"$ref":"10"},"sourceKey":"trigger","destinationUnit":{"$ref":"12"},"destinationKey":"In","guid":"7ad73bad-f80a-4870-8e58-1f9af610b510","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"15"},"sourceKey":"value","destinationUnit":{"$ref":"12"},"destinationKey":"Name","guid":"b7b1214b-e715-4696-822c-e5f8aa032ddd","$type":"Bolt.ValueConnection"}],"$version":"A"}}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: eb87ab32ac7e7fb44a449f25424de415, type: 2}
