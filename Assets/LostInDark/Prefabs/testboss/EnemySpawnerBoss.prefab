@@ -46,6 +46,7 @@ GameObject:
   - component: {fileID: 1995782087933468647}
   - component: {fileID: 1995782087933468646}
   - component: {fileID: 1995782087933468641}
+  - component: {fileID: 212655969}
   m_Layer: 0
   m_Name: EnemySpawnerBoss
   m_TagString: Untagged
@@ -83,10 +84,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"EnmeyType","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"UI","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Count","value":{"$content":1,"$type":"System.Int32"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"EnmeyType","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"UI","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Count","value":{"$content":1,"$type":"System.Int32"},"$version":"A"},{"name":"Animation","value":{"$content":2,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 1997292456162914516}
     - {fileID: 1208519562288949699}
+    - {fileID: 1995782089092861839}
 --- !u!114 &1995782087933468646
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -100,8 +102,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"nest":{"source":"Embed","macro":null,"embed":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":22.40452,"y":324.6954},"zoom":0.8,"elements":[],"$version":"A"}}}'
-    _objectReferences: []
+    _json: '{"nest":{"source":"Embed","macro":null,"embed":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":22.40452,"y":324.6954},"zoom":0.8,"elements":[{"nest":{"source":"Macro","macro":0,"embed":null},"defaultValues":{"Tag":{"$content":"Player","$type":"System.String"}},"position":{"x":-359.0,"y":125.0},"guid":"e2db311d-6e96-47d7-9400-d70467d1a0e0","$version":"A","$type":"Bolt.SuperUnit","$id":"10"},{"chainable":false,"member":{"name":"SetActive","parameterTypes":["System.Boolean"],"targetType":"UnityEngine.GameObject","targetTypeName":"UnityEngine.GameObject","$version":"A"},"defaultValues":{"target":null,"%value":{"$content":true,"$type":"System.Boolean"}},"position":{"x":-14.0,"y":125.0},"guid":"847e0252-74a6-40fd-9630-3dcf12705dcc","$version":"A","$type":"Bolt.InvokeMember","$id":"13"},{"specifyFallback":false,"kind":"Object","defaultValues":{"name":{"$content":"Animation","$type":"System.String"},"object":null},"position":{"x":-40.0,"y":310.0},"guid":"d84981b7-bfbe-4e71-9ad1-88b157645c24","$version":"A","$type":"Bolt.GetVariable","$id":"16"},{"sourceUnit":{"$ref":"10"},"sourceKey":"target","destinationUnit":{"$ref":"13"},"destinationKey":"enter","guid":"3a63393e-1280-481c-9b60-7f2f393fb9b5","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"16"},"sourceKey":"value","destinationUnit":{"$ref":"13"},"destinationKey":"target","guid":"95027065-43c5-4571-b1b3-a7b180e1a7bb","$type":"Bolt.ValueConnection"}],"$version":"A"}}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: 9b1040978bd0dc14aba4627276b5a286, type: 2}
 --- !u!212 &1995782087933468641
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -152,6 +155,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &212655969
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1995782087933468640}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -20.1, y: 3.9}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.61, y: 0.3}
+    oldSize: {x: 15.17037, y: 15.17037}
+    newSize: {x: 2, y: 2}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 6.75, y: 7.39}
+  m_EdgeRadius: 0
 --- !u!1 &1995782088009477102
 GameObject:
   m_ObjectHideFlags: 0
@@ -325,7 +354,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1995782089092861836
 Transform:
   m_ObjectHideFlags: 0
@@ -802,7 +831,7 @@ PrefabInstance:
     - target: {fileID: 7400935018047278838, guid: 6ab3490717becf545bdebab6efe2c8eb,
         type: 3}
       propertyPath: _data._json
-      value: '{"declarations":{"collection":{"$content":[{"name":"Speed","value":{"$content":1,"$type":"System.Int32"},"$version":"A"},{"name":"Detection","value":{"$content":10.0,"$type":"System.Single"},"$version":"A"},{"name":"Health","value":{"$content":30,"$type":"System.Int32"},"$version":"A"},{"name":"Shield","value":{"$content":30,"$type":"System.Int32"},"$version":"A"},{"name":"AttackDetection","value":{"$content":15.0,"$type":"System.Single"},"$version":"A"},{"name":"Grenade","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Bullet","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Lightning","value":{"$content":2,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"TestGunnerShield","value":{"$content":3,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"UI","value":{"$content":4,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      value: '{"declarations":{"collection":{"$content":[{"name":"Speed","value":{"$content":1,"$type":"System.Int32"},"$version":"A"},{"name":"Detection","value":{"$content":15.0,"$type":"System.Single"},"$version":"A"},{"name":"Health","value":{"$content":30,"$type":"System.Int32"},"$version":"A"},{"name":"Shield","value":{"$content":30,"$type":"System.Int32"},"$version":"A"},{"name":"AttackDetection","value":{"$content":10.0,"$type":"System.Single"},"$version":"A"},{"name":"Grenade","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Bullet","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Lightning","value":{"$content":2,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"TestGunnerShield","value":{"$content":3,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"UI","value":{"$content":4,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
     - target: {fileID: 7400935018047278838, guid: 6ab3490717becf545bdebab6efe2c8eb,
         type: 3}
