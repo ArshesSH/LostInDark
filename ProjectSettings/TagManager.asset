@@ -10,7 +10,8 @@ TagManager:
   - Key
   - MeleeWeapon
   - checkbox
-  - SFXPlayer
+  - Door
+  - PushableBlock
   layers:
   - Default
   - TransparentFX
@@ -35,8 +36,8 @@ TagManager:
   - MeleeWeapon
   - Enemies
   - PlayerInvincible
-  - PlayerJumpDown
-  - EnemyInvincible
+  - 
+  - 
   - 
   - 
   - 
