@@ -831,18 +831,53 @@ PrefabInstance:
     - target: {fileID: 7400935018047278838, guid: 6ab3490717becf545bdebab6efe2c8eb,
         type: 3}
       propertyPath: _data._json
-      value: '{"declarations":{"collection":{"$content":[{"name":"Speed","value":{"$content":1,"$type":"System.Int32"},"$version":"A"},{"name":"Detection","value":{"$content":15.0,"$type":"System.Single"},"$version":"A"},{"name":"Health","value":{"$content":30,"$type":"System.Int32"},"$version":"A"},{"name":"Shield","value":{"$content":30,"$type":"System.Int32"},"$version":"A"},{"name":"AttackDetection","value":{"$content":10.0,"$type":"System.Single"},"$version":"A"},{"name":"Grenade","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Bullet","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Lightning","value":{"$content":2,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"TestGunnerShield","value":{"$content":3,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"UI","value":{"$content":4,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      value: '{"declarations":{"collection":{"$content":[{"name":"Speed","value":{"$content":1,"$type":"System.Int32"},"$version":"A"},{"name":"Detection","value":{"$content":15.0,"$type":"System.Single"},"$version":"A"},{"name":"Health","value":{"$content":30,"$type":"System.Int32"},"$version":"A"},{"name":"Shield","value":{"$content":30,"$type":"System.Int32"},"$version":"A"},{"name":"AttackDetection","value":{"$content":10.0,"$type":"System.Single"},"$version":"A"},{"name":"Grenade","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Bullet","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Lightning","value":{"$content":2,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"TestGunnerShield","value":{"$content":3,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"UI","value":{"$content":4,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"GunnerFootstepSounds","value":{"$content":[{"$content":5,"$type":"UnityEngine.Object"},{"$content":6,"$type":"UnityEngine.Object"},{"$content":7,"$type":"UnityEngine.Object"},{"$content":8,"$type":"UnityEngine.Object"}],"$type":"Ludiq.AotList"},"$version":"A"},{"name":"GunnerImpactSounds","value":{"$content":[{"$content":9,"$type":"UnityEngine.Object"},{"$content":10,"$type":"UnityEngine.Object"},{"$content":11,"$type":"UnityEngine.Object"}],"$type":"Ludiq.AotList"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
     - target: {fileID: 7400935018047278838, guid: 6ab3490717becf545bdebab6efe2c8eb,
         type: 3}
       propertyPath: _data._objectReferences.Array.size
-      value: 5
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 7400935018047278838, guid: 6ab3490717becf545bdebab6efe2c8eb,
         type: 3}
       propertyPath: _data._objectReferences.Array.data[4]
       value: 
       objectReference: {fileID: 1208519562288949699}
+    - target: {fileID: 7400935018047278838, guid: 6ab3490717becf545bdebab6efe2c8eb,
+        type: 3}
+      propertyPath: _data._objectReferences.Array.data[5]
+      value: 
+      objectReference: {fileID: 8300000, guid: f88a98c1eaf3d904d86d1e8f85e249ce, type: 3}
+    - target: {fileID: 7400935018047278838, guid: 6ab3490717becf545bdebab6efe2c8eb,
+        type: 3}
+      propertyPath: _data._objectReferences.Array.data[6]
+      value: 
+      objectReference: {fileID: 8300000, guid: 1405fff70e6be504f82af6f73e33ad24, type: 3}
+    - target: {fileID: 7400935018047278838, guid: 6ab3490717becf545bdebab6efe2c8eb,
+        type: 3}
+      propertyPath: _data._objectReferences.Array.data[7]
+      value: 
+      objectReference: {fileID: 8300000, guid: a9441c7b87d565e4ab53bf175f580072, type: 3}
+    - target: {fileID: 7400935018047278838, guid: 6ab3490717becf545bdebab6efe2c8eb,
+        type: 3}
+      propertyPath: _data._objectReferences.Array.data[8]
+      value: 
+      objectReference: {fileID: 8300000, guid: b5821ccd1ba51204589ff413501f15ff, type: 3}
+    - target: {fileID: 7400935018047278838, guid: 6ab3490717becf545bdebab6efe2c8eb,
+        type: 3}
+      propertyPath: _data._objectReferences.Array.data[9]
+      value: 
+      objectReference: {fileID: 8300000, guid: 52659b3c95dc6427c9feef7fd4624f81, type: 3}
+    - target: {fileID: 7400935018047278838, guid: 6ab3490717becf545bdebab6efe2c8eb,
+        type: 3}
+      propertyPath: _data._objectReferences.Array.data[10]
+      value: 
+      objectReference: {fileID: 8300000, guid: c28334551fdb04394a0210c6a32071cb, type: 3}
+    - target: {fileID: 7400935018047278838, guid: 6ab3490717becf545bdebab6efe2c8eb,
+        type: 3}
+      propertyPath: _data._objectReferences.Array.data[11]
+      value: 
+      objectReference: {fileID: 8300000, guid: 89e5072b5af9b41eea002b41cf20c535, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6ab3490717becf545bdebab6efe2c8eb, type: 3}
 --- !u!1 &1997292456162914516 stripped
