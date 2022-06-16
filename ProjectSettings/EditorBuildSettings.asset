@@ -26,4 +26,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/LostInDark/Scenes/Stage_6.unity
     guid: 36b94a4b893a5824489176735a944d6b
+  - enabled: 1
+    path: Assets/LostInDark/Scenes/Loading.unity
+    guid: 01ea2a6e76cd58343a251c668109e984
+  - enabled: 1
+    path: Assets/LostInDark/Scenes/GameOver.unity
+    guid: 030a67cb488b1ec4ea4984521a34e4d9
   m_configObjects: {}
