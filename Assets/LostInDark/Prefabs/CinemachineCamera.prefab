@@ -13,6 +13,9 @@ GameObject:
   - component: {fileID: 8140925371772730803}
   - component: {fileID: 8140925371772730804}
   - component: {fileID: 1176120541}
+  - component: {fileID: 263393323}
+  - component: {fileID: 263393327}
+  - component: {fileID: 263393330}
   m_Layer: 0
   m_Name: CinemachineCamera
   m_TagString: Untagged
@@ -57,7 +60,7 @@ MonoBehaviour:
   m_Follow: {fileID: 0}
   m_Lens:
     FieldOfView: 40
-    OrthographicSize: 5
+    OrthographicSize: 10
     NearClipPlane: 0.1
     FarClipPlane: 5000
     Dutch: 0
@@ -83,8 +86,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[],"$version":"A"},"$version":"A"}}'
-    _objectReferences: []
+    _json: '{"declarations":{"collection":{"$content":[{"name":"boss","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 0}
 --- !u!114 &8140925371772730804
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -116,6 +120,64 @@ MonoBehaviour:
   m_FocusTracksTarget: 0
   m_FocusOffset: 0
   m_Profile: {fileID: 11400000, guid: 4062b17d005065746bb3df4e141080ee, type: 2}
+--- !u!114 &263393323
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8140925371772730807}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00b2d199b96b516448144ab30fb26aed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ChannelMask: 1
+  m_Gain: 1
+  m_Use2DDistance: 1
+--- !u!114 &263393327
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8140925371772730807}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e501d18bb52cf8c40b1853ca4904654f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_CollideAgainst:
+    serializedVersion: 2
+    m_Bits: 1
+  m_IgnoreTag: 
+  m_TransparentLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_MinimumDistanceFromTarget: 0.1
+  m_AvoidObstacles: 1
+  m_DistanceLimit: 0
+  m_MinimumOcclusionTime: 0
+  m_CameraRadius: 0.1
+  m_Strategy: 1
+  m_MaximumEffort: 4
+  m_SmoothingTime: 0
+  m_Damping: 0
+  m_DampingWhenOccluded: 0
+  m_OptimalTargetDistance: 0
+--- !u!114 &263393330
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8140925371772730807}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 44d70cc20219cd84593f67d248eafe36, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Offset: {x: 0, y: 0, z: 0}
 --- !u!1 &8140925371869544537
 GameObject:
   m_ObjectHideFlags: 0
