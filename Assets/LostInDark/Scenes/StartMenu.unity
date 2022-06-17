@@ -15131,6 +15131,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1355817755}
   - component: {fileID: 1355817757}
+  - component: {fileID: 1355817758}
+  - component: {fileID: 1355817756}
   m_Layer: 5
   m_Name: SFXVolumeSlider
   m_TagString: Untagged
@@ -15162,6 +15164,22 @@ RectTransform:
   m_AnchoredPosition: {x: -2.2999878, y: 46.300003}
   m_SizeDelta: {x: -184.1, y: -62.7}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1355817756
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1355817754}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -57143145, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: 8867baef005feeb46b0f6e8925cab400, type: 2}
 --- !u!114 &1355817757
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15213,6 +15231,21 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &1355817758
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1355817754}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1465209106, guid: c8d0ad23af520fe46aabe2b1fecf6462, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"declarations":{"collection":{"$content":[],"$version":"A"},"$version":"A"}}'
+    _objectReferences: []
 --- !u!1 &1378154155 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1651437830616796, guid: eb72f36523dcf684f9ca37da45adfa76,
@@ -26259,6 +26292,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1707485451}
   - component: {fileID: 1707485453}
+  - component: {fileID: 1707485454}
+  - component: {fileID: 1707485452}
   m_Layer: 5
   m_Name: MusicVolumeSlider
   m_TagString: Untagged
@@ -26290,6 +26325,22 @@ RectTransform:
   m_AnchoredPosition: {x: -2.2999878, y: -26.199997}
   m_SizeDelta: {x: -184.1, y: -60.6}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1707485452
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1707485450}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -57143145, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: 1ce8b14fd4a3b1942b3fab9d353ae155, type: 2}
 --- !u!114 &1707485453
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26341,6 +26392,21 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &1707485454
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1707485450}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1465209106, guid: c8d0ad23af520fe46aabe2b1fecf6462, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"declarations":{"collection":{"$content":[],"$version":"A"},"$version":"A"}}'
+    _objectReferences: []
 --- !u!1 &1732999243
 GameObject:
   m_ObjectHideFlags: 0
@@ -27441,6 +27507,8 @@ GameObject:
   m_Component:
   - component: {fileID: 2037411739}
   - component: {fileID: 2037411741}
+  - component: {fileID: 2037411742}
+  - component: {fileID: 2037411740}
   m_Layer: 5
   m_Name: MasterVolumeSlider
   m_TagString: Untagged
@@ -27472,6 +27540,22 @@ RectTransform:
   m_AnchoredPosition: {x: -1.7000122, y: -98.1}
   m_SizeDelta: {x: -184.4, y: -61.7}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &2037411740
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2037411738}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -57143145, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: 29849365c2f98214eb15b9dae44453d6, type: 2}
 --- !u!114 &2037411741
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27523,6 +27607,21 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &2037411742
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2037411738}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1465209106, guid: c8d0ad23af520fe46aabe2b1fecf6462, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"declarations":{"collection":{"$content":[],"$version":"A"},"$version":"A"}}'
+    _objectReferences: []
 --- !u!1 &2038926899
 GameObject:
   m_ObjectHideFlags: 0
