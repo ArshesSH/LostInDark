@@ -558,6 +558,96 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &208637219
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 208637223}
+  - component: {fileID: 208637222}
+  - component: {fileID: 208637221}
+  - component: {fileID: 208637220}
+  m_Layer: 0
+  m_Name: MoveScene
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &208637220
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 208637219}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -57143145, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Embed","macro":null,"embed":{"variables":{"collection":{"$content":[{"name":"IsMoveScene","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"}],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":216.3334,"y":-88.66666},"zoom":0.9,"elements":[{"coroutine":false,"defaultValues":{},"position":{"x":-267.0,"y":-59.0},"guid":"1ab1b82b-049f-448a-b4e6-ca9c3c1800a9","$version":"A","$type":"Bolt.Update","$id":"11"},{"specifyFallback":false,"kind":"Scene","defaultValues":{"name":{"$content":"IsBossDestroyed","$type":"System.String"}},"position":{"x":-254.0,"y":77.0},"guid":"56701fb9-0759-4bb9-b2c6-eb8344eb49d0","$version":"A","$type":"Bolt.GetVariable","$id":"13"},{"defaultValues":{},"position":{"x":-35.0,"y":-57.0},"guid":"3c013462-f541-4227-9e4a-4f6732c4e328","$version":"A","$type":"Bolt.Branch","$id":"15"},{"kind":"Graph","defaultValues":{"name":{"$content":"IsMoveScene","$type":"System.String"}},"position":{"x":207.0,"y":-552.0},"guid":"568523ba-e231-4ba6-a432-01e51a57b56e","$version":"A","$type":"Bolt.SetVariable","$id":"17"},{"type":"System.Boolean","value":{"$content":true,"$type":"System.Boolean"},"defaultValues":{},"position":{"x":191.0,"y":-422.0},"guid":"0dca3a7b-2004-4924-9854-dc6c7741ab48","$version":"A","$type":"Bolt.Literal","$id":"19"},{"specifyFallback":false,"kind":"Graph","defaultValues":{"name":{"$content":"IsMoveScene","$type":"System.String"}},"position":{"x":-264.0,"y":189.0},"guid":"e2438f41-7f34-40f2-a920-8c67a9b7b2c8","$version":"A","$type":"Bolt.GetVariable","$id":"21"},{"defaultValues":{},"position":{"x":-71.0,"y":85.0},"guid":"f2aac18d-7ee0-4b01-b25b-63a561fd11fe","$version":"A","$type":"Bolt.And","$id":"23"},{"chainable":false,"member":{"name":"LoadScene","parameterTypes":["System.String"],"targetType":"UnityEngine.SceneManagement.SceneManager","targetTypeName":"UnityEngine.SceneManagement.SceneManager","$version":"A"},"defaultValues":{"%sceneName":{"$content":"Ending","$type":"System.String"}},"position":{"x":202.0,"y":-48.0},"guid":"6cb5764e-c8e8-456d-9244-81d21799c114","$version":"A","$type":"Bolt.InvokeMember","$id":"25"},{"nest":{"source":"Macro","macro":0,"embed":null},"defaultValues":{"Tag":{"$content":"Player","$type":"System.String"}},"position":{"x":-130.0,"y":-527.0},"guid":"4c78b500-5abe-48b9-ba3b-4509e5ad6632","$version":"A","$type":"Bolt.SuperUnit","$id":"28"},{"sourceUnit":{"$ref":"11"},"sourceKey":"trigger","destinationUnit":{"$ref":"15"},"destinationKey":"enter","guid":"31818371-3610-4323-8cbb-54eaeff85654","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"15"},"sourceKey":"ifTrue","destinationUnit":{"$ref":"25"},"destinationKey":"enter","guid":"6fd2651a-1b1d-42ea-98ea-4dd80b9f434a","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"28"},"sourceKey":"target","destinationUnit":{"$ref":"17"},"destinationKey":"assign","guid":"a281db41-a74c-4f68-9fa9-d641985e6037","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"19"},"sourceKey":"output","destinationUnit":{"$ref":"17"},"destinationKey":"input","guid":"bd96996f-34ed-4d32-8256-e3415a7b51ca","$type":"Bolt.ValueConnection"},{"sourceUnit":{"$ref":"13"},"sourceKey":"value","destinationUnit":{"$ref":"23"},"destinationKey":"a","guid":"9d18e920-6e5d-4cc1-ad5b-7aabd03cdc26","$type":"Bolt.ValueConnection"},{"sourceUnit":{"$ref":"21"},"sourceKey":"value","destinationUnit":{"$ref":"23"},"destinationKey":"b","guid":"a80e4dfa-ceaa-4abc-b20e-dab1dd4c7e5a","$type":"Bolt.ValueConnection"},{"sourceUnit":{"$ref":"23"},"sourceKey":"result","destinationUnit":{"$ref":"15"},"destinationKey":"condition","guid":"6456d225-a203-4559-aa45-07455d120c55","$type":"Bolt.ValueConnection"}],"$version":"A"}}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: 9b1040978bd0dc14aba4627276b5a286, type: 2}
+--- !u!114 &208637221
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 208637219}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1465209106, guid: c8d0ad23af520fe46aabe2b1fecf6462, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"declarations":{"collection":{"$content":[],"$version":"A"},"$version":"A"}}'
+    _objectReferences: []
+--- !u!61 &208637222
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 208637219}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
+--- !u!4 &208637223
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 208637219}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 53.77, y: 2.6, z: -3.2322183}
+  m_LocalScale: {x: 3, y: 5, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 20
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &243004799
 GameObject:
   m_ObjectHideFlags: 0
@@ -22307,7 +22397,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"IsBossDestroyed","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!4 &1518939950
 Transform:
