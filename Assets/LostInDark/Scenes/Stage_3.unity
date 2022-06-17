@@ -402,7 +402,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1205187275}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &61953212
 GameObject:
@@ -999,36 +999,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5d9bbcc3e0afa8d41895de10067d57b5, type: 3}
---- !u!1 &492934084
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 492934085}
-  m_Layer: 0
-  m_Name: from7
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &492934085
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 492934084}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -27.64, y: -3.6, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1205187275}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &501227995
 GameObject:
   m_ObjectHideFlags: 0
@@ -53111,7 +53081,6 @@ Transform:
   - {fileID: 685651442}
   - {fileID: 61953213}
   - {fileID: 1723460439}
-  - {fileID: 492934085}
   - {fileID: 59749208}
   m_Father: {fileID: 0}
   m_RootOrder: 6
@@ -53145,14 +53114,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"Stage4","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Stage5","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Stage6","value":{"$content":2,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Stage7","value":{"$content":3,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Default","value":{"$content":4,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Player","value":{"$content":5,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"Stage4","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Stage5","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Stage6","value":{"$content":2,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Default","value":{"$content":3,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Player","value":{"$content":4,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 685651441}
     - {fileID: 61953212}
     - {fileID: 1723460438}
-    - {fileID: 492934084}
     - {fileID: 59749207}
-    - {fileID: 0}
+    - {fileID: 580984448}
 --- !u!1 &1209300607
 GameObject:
   m_ObjectHideFlags: 0
