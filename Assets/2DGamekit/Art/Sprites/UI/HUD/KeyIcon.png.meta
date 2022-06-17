@@ -20,8 +20,26 @@ TextureImporter:
   - first:
       213: 21300010
     second: KeyIcon_Collected
+  - first:
+      213: -3758923921526908785
+    second: KeyIcon_0
+  - first:
+      213: -2973529530772854626
+    second: KeyIcon_1
+  - first:
+      213: 7795541620203108510
+    second: KeyIcon_2
+  - first:
+      213: 4384412235076739642
+    second: KeyIcon_3
+  - first:
+      213: 8053555368137179835
+    second: KeyIcon_4
+  - first:
+      213: -5708620421214283125
+    second: KeyIcon_5
   externalObjects: {}
-  serializedVersion: 10
+  serializedVersion: 11
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -49,9 +67,9 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -75,6 +93,7 @@ TextureImporter:
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  applyGammaDecoding: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -116,7 +135,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: KeyIcon_Empty
+      name: KeyIcon_0
       rect:
         serializedVersion: 2
         x: 0
@@ -130,14 +149,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 02305410000000000800000000000000
-      internalID: 21300000
+      spriteID: f889ba7eb9e95dbc0800000000000000
+      internalID: -3758923921526908785
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: KeyIcon_00
+      name: KeyIcon_1
       rect:
         serializedVersion: 2
         x: 128
@@ -151,14 +170,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 22305410000000000800000000000000
-      internalID: 21300002
+      spriteID: e98662d65a6ebb6d0800000000000000
+      internalID: -2973529530772854626
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: KeyIcon_01
+      name: KeyIcon_2
       rect:
         serializedVersion: 2
         x: 256
@@ -172,14 +191,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 42305410000000000800000000000000
-      internalID: 21300004
+      spriteID: e98baff0dc35f2c60800000000000000
+      internalID: 7795541620203108510
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: KeyIcon_02
+      name: KeyIcon_3
       rect:
         serializedVersion: 2
         x: 0
@@ -193,14 +212,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 62305410000000000800000000000000
-      internalID: 21300006
+      spriteID: a3220acb2bf88dc30800000000000000
+      internalID: 4384412235076739642
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: KeyIcon_03
+      name: KeyIcon_4
       rect:
         serializedVersion: 2
         x: 128
@@ -214,14 +233,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 82305410000000000800000000000000
-      internalID: 21300008
+      spriteID: bb2c1c010f9f3cf60800000000000000
+      internalID: 8053555368137179835
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: KeyIcon_Collected
+      name: KeyIcon_5
       rect:
         serializedVersion: 2
         x: 256
@@ -235,8 +254,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a2305410000000000800000000000000
-      internalID: 21300010
+      spriteID: b8a5bf3f8f7e6c0b0800000000000000
+      internalID: -5708620421214283125
       vertices: []
       indices: 
       edges: []
@@ -244,7 +263,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 557b50386b0663147b55fcbf79ccda24
     internalID: 0
     vertices: []
     indices: 
