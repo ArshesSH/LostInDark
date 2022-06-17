@@ -1,6 +1,11 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/LostInDark/Prefabs/RecycleEnemySpawnerMelee.prefab.meta
 guid: 7f7fcfb012ece474084c19107758b3c4
 PrefabImporter:
+========
+guid: b9324d84e5b3e8b47b16e0c3abc46437
+DefaultImporter:
+>>>>>>>> Try-Create-Ending:Assets/LostInDark/Scenes/Ending.unity.meta
   externalObjects: {}
   userData: 
   assetBundleName: 

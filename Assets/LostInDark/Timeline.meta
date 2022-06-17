@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/LostInDark/Timeline.meta
 guid: 150fe6c01c851f14fb6f25e1c14ecb4c
+========
+guid: 1b1f818582d259f4ba682e45b3e63d87
+>>>>>>>> Try-Create-Ending:Assets/LostInDark/Prefabs/Cinema.meta
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}

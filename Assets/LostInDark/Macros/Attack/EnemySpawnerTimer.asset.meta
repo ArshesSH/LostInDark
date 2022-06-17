@@ -1,6 +1,11 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/LostInDark/Macros/Attack/EnemySpawnerTimer.asset.meta
 guid: d37338d68564c6849a7d8f74a6664eda
 NativeFormatImporter:
+========
+guid: 200f82f243bf7c14b81238f3ab361242
+PrefabImporter:
+>>>>>>>> Try-Create-Ending:Assets/LostInDark/Prefabs/Cinema/DropshipCinema.prefab.meta
   externalObjects: {}
   mainObjectFileID: 11400000
   userData: 

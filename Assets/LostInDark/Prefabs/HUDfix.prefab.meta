@@ -1,6 +1,12 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/LostInDark/Prefabs/HUDfix.prefab.meta
 guid: fc97c8f933f743941b18990fb2320a77
 PrefabImporter:
+========
+guid: 150fe6c01c851f14fb6f25e1c14ecb4c
+folderAsset: yes
+DefaultImporter:
+>>>>>>>> Try-Create-Ending:Assets/LostInDark/Timeline.meta
   externalObjects: {}
   userData: 
   assetBundleName: 
