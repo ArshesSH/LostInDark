@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/LostInDark/Prefabs/InteractableObjects.meta
+guid: 62aa8feee71f02346b176de257ca6fc9
+folderAsset: yes
+DefaultImporter:
+========
+guid: cbf897c8498a99b46af75ce8b696f258
+NativeFormatImporter:
+>>>>>>>> MergeSoundLoad:Assets/LostInDark/Macros/Attack/Enemy/BossAnimationStart.asset.meta
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
