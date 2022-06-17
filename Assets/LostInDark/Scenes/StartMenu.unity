@@ -1520,23 +1520,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'A - Move Left
-
-    D - Move Right
-
-    W - Look Up
-
-    S - Look Down/Fall
-    through platform
-
-    Space - Jump
-
-    O - Fire ranged weapon
-
-    K - Melee
-    Attack
-
-    Esc - Pause Menu'
+  m_text: "Move :Left, Right Key : \nJump : C \nDown Jump : Down + C \nWall Jump
+    : Left/Right + C\nDash : Z \nInteraction : F  \nMelee Attack : X  \nRange Attack
+    : S "
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 4c1f115f2c9b80b4cabb22cae230db1c, type: 2}
   m_sharedMaterial: {fileID: 2100000, guid: c64de538f27a5b342a025d5db50d19cc, type: 2}
