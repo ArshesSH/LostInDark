@@ -801,11 +801,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 2222892958135987530, guid: c8f760061a0c8e746ab2e98d18db3df8,
-        type: 3}
-      propertyPath: m_audioClip
-      value: 
-      objectReference: {fileID: 8300000, guid: 8c00cd7078bfe0f499695655a0eb5713, type: 3}
     - target: {fileID: 2222892958995372066, guid: c8f760061a0c8e746ab2e98d18db3df8,
         type: 3}
       propertyPath: m_Name
@@ -13506,23 +13501,23 @@ PrefabInstance:
     - target: {fileID: 9009193853536766214, guid: d88c9b8e127cc0d45b263f29d559d362,
         type: 3}
       propertyPath: _data._json
-      value: '{"declarations":{"collection":{"$content":[{"name":"Speed","value":{"$content":1,"$type":"System.Int32"},"$version":"A"},{"name":"Detection","value":{"$content":30.0,"$type":"System.Single"},"$version":"A"},{"name":"Health","value":{"$content":15,"$type":"System.Int32"},"$version":"A"},{"name":"Shield","value":{"$content":15,"$type":"System.Int32"},"$version":"A"},{"name":"AttackDetection","value":{"$content":20.0,"$type":"System.Single"},"$version":"A"},{"name":"Grenade","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Bullet","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Lightning","value":{"$content":2,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"TestGunnerShield","value":{"$content":3,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"UI","value":{"$content":4,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"GunnerFootstepSounds","value":{"$content":[{"$content":5,"$type":"UnityEngine.Object"},{"$content":6,"$type":"UnityEngine.Object"},{"$content":7,"$type":"UnityEngine.Object"},{"$content":8,"$type":"UnityEngine.Object"}],"$type":"Ludiq.AotList"},"$version":"A"},{"name":"GunnerImpactSounds","value":{"$content":[{"$content":9,"$type":"UnityEngine.Object"},{"$content":10,"$type":"UnityEngine.Object"},{"$content":11,"$type":"UnityEngine.Object"}],"$type":"Ludiq.AotList"},"$version":"A"},{"name":"GunnerLightningSounds","value":{"$content":[{"$content":12,"$type":"UnityEngine.Object"}],"$type":"Ludiq.AotList"},"$version":"A"},{"name":"GunnerGrenadeSounds","value":{"$content":[{"$content":13,"$type":"UnityEngine.Object"}],"$type":"Ludiq.AotList"},"$version":"A"},{"name":"GunnerLaserSounds","value":{"$content":[{"$content":14,"$type":"UnityEngine.Object"}],"$type":"Ludiq.AotList"},"$version":"A"},{"name":"GunnerDeathSounds","value":{"$content":[{"$content":15,"$type":"UnityEngine.Object"},{"$content":16,"$type":"UnityEngine.Object"},{"$content":17,"$type":"UnityEngine.Object"}],"$type":"Ludiq.AotList"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      value: '{"declarations":{"collection":{"$content":[{"name":"Speed","value":{"$content":1,"$type":"System.Int32"},"$version":"A"},{"name":"Detection","value":{"$content":30.0,"$type":"System.Single"},"$version":"A"},{"name":"Health","value":{"$content":1,"$type":"System.Int32"},"$version":"A"},{"name":"Shield","value":{"$content":1,"$type":"System.Int32"},"$version":"A"},{"name":"AttackDetection","value":{"$content":20.0,"$type":"System.Single"},"$version":"A"},{"name":"Grenade","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Bullet","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Lightning","value":{"$content":2,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"TestGunnerShield","value":{"$content":3,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"UI","value":{"$content":4,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"GunnerFootstepSounds","value":{"$content":[{"$content":5,"$type":"UnityEngine.Object"},{"$content":6,"$type":"UnityEngine.Object"},{"$content":7,"$type":"UnityEngine.Object"},{"$content":8,"$type":"UnityEngine.Object"}],"$type":"Ludiq.AotList"},"$version":"A"},{"name":"GunnerImpactSounds","value":{"$content":[{"$content":9,"$type":"UnityEngine.Object"},{"$content":10,"$type":"UnityEngine.Object"},{"$content":11,"$type":"UnityEngine.Object"}],"$type":"Ludiq.AotList"},"$version":"A"},{"name":"GunnerLightningSounds","value":{"$content":[{"$content":12,"$type":"UnityEngine.Object"}],"$type":"Ludiq.AotList"},"$version":"A"},{"name":"GunnerGrenadeSounds","value":{"$content":[{"$content":13,"$type":"UnityEngine.Object"}],"$type":"Ludiq.AotList"},"$version":"A"},{"name":"GunnerLaserSounds","value":{"$content":[{"$content":14,"$type":"UnityEngine.Object"}],"$type":"Ludiq.AotList"},"$version":"A"},{"name":"GunnerDeathSounds","value":{"$content":[{"$content":15,"$type":"UnityEngine.Object"},{"$content":16,"$type":"UnityEngine.Object"}],"$type":"Ludiq.AotList"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
     - target: {fileID: 9009193853536766214, guid: d88c9b8e127cc0d45b263f29d559d362,
         type: 3}
       propertyPath: _data._objectReferences.Array.size
-      value: 18
+      value: 17
       objectReference: {fileID: 0}
     - target: {fileID: 9009193853536766214, guid: d88c9b8e127cc0d45b263f29d559d362,
         type: 3}
       propertyPath: _data._objectReferences.Array.data[15]
       value: 
-      objectReference: {fileID: 8300000, guid: 05dd0160edee8dc449f61b762c811e49, type: 3}
+      objectReference: {fileID: 8300000, guid: 400c44a256b5eeb46897fd93bd481a00, type: 3}
     - target: {fileID: 9009193853536766214, guid: d88c9b8e127cc0d45b263f29d559d362,
         type: 3}
       propertyPath: _data._objectReferences.Array.data[16]
       value: 
-      objectReference: {fileID: 8300000, guid: 400c44a256b5eeb46897fd93bd481a00, type: 3}
+      objectReference: {fileID: 8300000, guid: d7d2b5c4d1909864a8e0bb38b2cae870, type: 3}
     - target: {fileID: 9009193853536766214, guid: d88c9b8e127cc0d45b263f29d559d362,
         type: 3}
       propertyPath: _data._objectReferences.Array.data[17]
@@ -17106,7 +17101,7 @@ PrefabInstance:
     - target: {fileID: 8140925371772730805, guid: a539fe61abf7eb44e889a58a7df6536b,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.33
+      value: 1.8300004
       objectReference: {fileID: 0}
     - target: {fileID: 8140925371772730805, guid: a539fe61abf7eb44e889a58a7df6536b,
         type: 3}
@@ -17724,7 +17719,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4566812615480170, guid: 5e83790bcf82c5b429429310bc59abd6, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 1.5000004
       objectReference: {fileID: 0}
     - target: {fileID: 20337567286520830, guid: 5e83790bcf82c5b429429310bc59abd6,
         type: 3}
