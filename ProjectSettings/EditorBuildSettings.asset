@@ -6,11 +6,11 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/LostInDark/Scenes/UIMenu.unity
-    guid: 9d3ddeb1a286e6c4db86491ed7201470
-  - enabled: 1
     path: Assets/LostInDark/Scenes/StartMenu.unity
     guid: 2f7c2af4f6b3657409f4701587cd42b3
+  - enabled: 1
+    path: Assets/LostInDark/Scenes/UIMenu.unity
+    guid: 9d3ddeb1a286e6c4db86491ed7201470
   - enabled: 1
     path: Assets/LostInDark/Scenes/Start.unity
     guid: e08f5188f4ef52f4bb7a1fb34b13741d
