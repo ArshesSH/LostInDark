@@ -929,7 +929,7 @@ GameObject:
   m_Component:
   - component: {fileID: 122229810}
   - component: {fileID: 122229811}
-  m_Layer: 24
+  m_Layer: 28
   m_Name: HangingPlants2_4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1010,7 +1010,7 @@ GameObject:
   m_Component:
   - component: {fileID: 123420908}
   - component: {fileID: 123420909}
-  m_Layer: 24
+  m_Layer: 28
   m_Name: HangingPlants2_4 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27439,7 +27439,7 @@ GameObject:
   m_Component:
   - component: {fileID: 396705303}
   - component: {fileID: 396705304}
-  m_Layer: 24
+  m_Layer: 28
   m_Name: HangingPlants2_4 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35313,7 +35313,7 @@ GameObject:
   m_Component:
   - component: {fileID: 643901572}
   - component: {fileID: 643901573}
-  m_Layer: 24
+  m_Layer: 28
   m_Name: HangingPlants2_4 (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -36783,7 +36783,7 @@ Transform:
   m_LocalScale: {x: 1.5, y: 1.5, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &807805591
 GameObject:
@@ -39293,7 +39293,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1059874031}
   - component: {fileID: 1059874032}
-  m_Layer: 24
+  m_Layer: 28
   m_Name: HangingPlants2_4 (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -51683,7 +51683,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1358069978}
   - component: {fileID: 1358069979}
-  m_Layer: 24
+  m_Layer: 28
   m_Name: HangingPlants2_4 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -51987,7 +51987,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1365293569}
   - component: {fileID: 1365293570}
-  m_Layer: 24
+  m_Layer: 28
   m_Name: HangingPlants2_4 (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -55259,7 +55259,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1664327954}
   - component: {fileID: 1664327955}
-  m_Layer: 24
+  m_Layer: 28
   m_Name: HangingPlants2_4 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -55805,7 +55805,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1706762406}
   - component: {fileID: 1706762407}
-  m_Layer: 24
+  m_Layer: 28
   m_Name: HangingPlants2_4 (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -62454,7 +62454,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1897611459}
   - component: {fileID: 1897611458}
-  m_Layer: 24
+  m_Layer: 28
   m_Name: Vine
   m_TagString: VineWall
   m_Icon: {fileID: 0}
@@ -63173,7 +63173,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2029876888}
   - component: {fileID: 2029876889}
-  m_Layer: 24
+  m_Layer: 28
   m_Name: HangingPlants2_4 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -63491,7 +63491,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2098530535}
   - component: {fileID: 2098530536}
-  m_Layer: 24
+  m_Layer: 28
   m_Name: HangingPlants2_4 (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
