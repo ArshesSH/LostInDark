@@ -28847,6 +28847,11 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: 1.0000002
       objectReference: {fileID: 0}
+    - target: {fileID: 20337567286520830, guid: 5e83790bcf82c5b429429310bc59abd6,
+        type: 3}
+      propertyPath: orthographic size
+      value: 5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5e83790bcf82c5b429429310bc59abd6, type: 3}
 --- !u!4 &556735878 stripped
@@ -36778,7 +36783,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 6
+  m_Mass: 1
   m_LinearDrag: 2
   m_AngularDrag: 0.05
   m_GravityScale: 5

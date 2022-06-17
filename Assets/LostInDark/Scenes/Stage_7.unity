@@ -17654,14 +17654,6 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 894118400, guid: 5e83790bcf82c5b429429310bc59abd6, type: 3}
-      propertyPath: _data._json
-      value: '{"declarations":{"collection":{"$content":[{"name":"Speed","value":{"$content":6.0,"$type":"System.Single"},"$version":"A"},{"name":"Jump","value":{"$content":10.0,"$type":"System.Single"},"$version":"A"},{"name":"HasKey","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"Health","value":{"$content":3,"$type":"System.Int32"},"$version":"A"},{"name":"ProjectilesPickup","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"},{"name":"JumpTimeMax","value":{"$content":0.3,"$type":"System.Single"},"$version":"A"},{"name":"GroundCheckCircleRadius","value":{"$content":0.25,"$type":"System.Single"},"$version":"A"},{"name":"WallCheckDistance","value":{"$content":0.4,"$type":"System.Single"},"$version":"A"},{"name":"WallCheckPosY","value":{"$content":1.5,"$type":"System.Single"},"$version":"A"},{"name":"WallSlidingSpeed","value":{"$content":2.0,"$type":"System.Single"},"$version":"A"},{"name":"CanMeleeAttack","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"},{"name":"MeleeWeapon","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"HoldingGunTimeOutDuration","value":{"$content":1.5,"$type":"System.Single"},"$version":"A"},{"name":"Bullet","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"DashEffect","value":{"$content":2,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"ArmPosition","value":{"$content":3,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"AttackDelayTime","value":{"$content":1.0,"$type":"System.Single"},"$version":"A"},{"name":"GunDelayTime","value":{"$content":0.2,"$type":"System.Single"},"$version":"A"},{"name":"AttackCount","value":{"$content":0.0,"$type":"System.Single"},"$version":"A"},{"name":"Ellen_Hurt_Sounds","value":{"$content":[{"$content":4,"$type":"UnityEngine.Object"},{"$content":5,"$type":"UnityEngine.Object"},{"$content":6,"$type":"UnityEngine.Object"},{"$content":7,"$type":"UnityEngine.Object"}],"$type":"Ludiq.AotList"},"$version":"A"},{"name":"Ellen_Footstep_Sounds","value":{"$content":[{"$content":8,"$type":"UnityEngine.Object"},{"$content":9,"$type":"UnityEngine.Object"},{"$content":10,"$type":"UnityEngine.Object"},{"$content":11,"$type":"UnityEngine.Object"}],"$type":"Ludiq.AotList"},"$version":"A"},{"name":"Ellen_Ranged_Sounds","value":{"$content":[{"$content":12,"$type":"UnityEngine.Object"},{"$content":13,"$type":"UnityEngine.Object"},{"$content":14,"$type":"UnityEngine.Object"},{"$content":15,"$type":"UnityEngine.Object"}],"$type":"Ludiq.AotList"},"$version":"A"},{"name":"CanEnterPortal","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"},{"name":"Cinemachine","value":{"$content":16,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
-      objectReference: {fileID: 0}
-    - target: {fileID: 894118400, guid: 5e83790bcf82c5b429429310bc59abd6, type: 3}
-      propertyPath: _data._objectReferences.Array.size
-      value: 17
-      objectReference: {fileID: 0}
-    - target: {fileID: 894118400, guid: 5e83790bcf82c5b429429310bc59abd6, type: 3}
       propertyPath: _data._objectReferences.Array.data[16]
       value: 
       objectReference: {fileID: 1386724178}
@@ -17712,19 +17704,6 @@ PrefabInstance:
     - target: {fileID: 4173568434705544, guid: 5e83790bcf82c5b429429310bc59abd6, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4566812615480170, guid: 5e83790bcf82c5b429429310bc59abd6, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4566812615480170, guid: 5e83790bcf82c5b429429310bc59abd6, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 1.5000004
-      objectReference: {fileID: 0}
-    - target: {fileID: 20337567286520830, guid: 5e83790bcf82c5b429429310bc59abd6,
-        type: 3}
-      propertyPath: orthographic size
-      value: 7.5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5e83790bcf82c5b429429310bc59abd6, type: 3}
