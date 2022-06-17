@@ -13,6 +13,7 @@ TagManager:
   - Door
   - PushableBlock
   - VineWall
+  - Water
   layers:
   - Default
   - TransparentFX

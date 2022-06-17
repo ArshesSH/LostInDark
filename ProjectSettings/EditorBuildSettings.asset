@@ -6,14 +6,14 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/LostInDark/Scenes/StartMenu.unity
+    guid: 2f7c2af4f6b3657409f4701587cd42b3
+  - enabled: 1
     path: Assets/LostInDark/Scenes/UIMenu.unity
     guid: 9d3ddeb1a286e6c4db86491ed7201470
   - enabled: 1
-    path: Assets/LostInDark/Scenes/MenuLevel.unity
-    guid: d0f7ffb6b02dd7343980c018277f3789
-  - enabled: 1
-    path: Assets/LostInDark/Scenes/StartMenu.unity
-    guid: 2f7c2af4f6b3657409f4701587cd42b3
+    path: Assets/LostInDark/Scenes/Start.unity
+    guid: e08f5188f4ef52f4bb7a1fb34b13741d
   - enabled: 1
     path: Assets/LostInDark/Scenes/Stage_1.unity
     guid: c7254bd3788fa5a4795219383254d61a
@@ -41,4 +41,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/LostInDark/Scenes/GameOver.unity
     guid: 030a67cb488b1ec4ea4984521a34e4d9
+  - enabled: 1
+    path: Assets/LostInDark/Scenes/StartHOS.unity
+    guid: 86ef6b0b4deec9a4c98df6ca02b00a0c
+  - enabled: 1
+    path: Assets/LostInDark/Scenes/Ending.unity
+    guid: 92c311174e67d124c9e113f84cb24674
+  - enabled: 1
+    path: Assets/LostInDark/Scenes/End.unity
+    guid: 3e5977eadd864a74a8f2099f54a40c79
   m_configObjects: {}

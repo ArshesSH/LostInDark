@@ -4781,7 +4781,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1623835051334804}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalPosition: {x: 0, y: 1.5000004, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4173568434705544}
@@ -4814,7 +4814,7 @@ Camera:
   far clip plane: 5000
   field of view: 40
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 7.5
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -4958,7 +4958,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1401015027
   m_SortingLayer: 0
-  m_SortingOrder: 6
+  m_SortingOrder: 7
   m_Sprite: {fileID: 21300000, guid: c4d7d6470acd7bf45971042161c6e018, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -5065,7 +5065,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"Speed","value":{"$content":6.0,"$type":"System.Single"},"$version":"A"},{"name":"Jump","value":{"$content":10.0,"$type":"System.Single"},"$version":"A"},{"name":"HasKey","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"Health","value":{"$content":3,"$type":"System.Int32"},"$version":"A"},{"name":"ProjectilesPickup","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"JumpTimeMax","value":{"$content":0.3,"$type":"System.Single"},"$version":"A"},{"name":"GroundCheckCircleRadius","value":{"$content":0.25,"$type":"System.Single"},"$version":"A"},{"name":"WallCheckDistance","value":{"$content":0.4,"$type":"System.Single"},"$version":"A"},{"name":"WallCheckPosY","value":{"$content":1.5,"$type":"System.Single"},"$version":"A"},{"name":"WallSlidingSpeed","value":{"$content":2.0,"$type":"System.Single"},"$version":"A"},{"name":"CanMeleeAttack","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"},{"name":"MeleeWeapon","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"HoldingGunTimeOutDuration","value":{"$content":1.5,"$type":"System.Single"},"$version":"A"},{"name":"Bullet","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"DashEffect","value":{"$content":2,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"ArmPosition","value":{"$content":3,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"AttackDelayTime","value":{"$content":1.0,"$type":"System.Single"},"$version":"A"},{"name":"GunDelayTime","value":{"$content":0.2,"$type":"System.Single"},"$version":"A"},{"name":"AttackCount","value":{"$content":0.0,"$type":"System.Single"},"$version":"A"},{"name":"Ellen_Hurt_Sounds","value":{"$content":[{"$content":4,"$type":"UnityEngine.Object"},{"$content":5,"$type":"UnityEngine.Object"},{"$content":6,"$type":"UnityEngine.Object"},{"$content":7,"$type":"UnityEngine.Object"}],"$type":"Ludiq.AotList"},"$version":"A"},{"name":"Ellen_Footstep_Sounds","value":{"$content":[{"$content":8,"$type":"UnityEngine.Object"},{"$content":9,"$type":"UnityEngine.Object"},{"$content":10,"$type":"UnityEngine.Object"},{"$content":11,"$type":"UnityEngine.Object"}],"$type":"Ludiq.AotList"},"$version":"A"},{"name":"Ellen_Ranged_Sounds","value":{"$content":[{"$content":12,"$type":"UnityEngine.Object"},{"$content":13,"$type":"UnityEngine.Object"},{"$content":14,"$type":"UnityEngine.Object"},{"$content":15,"$type":"UnityEngine.Object"}],"$type":"Ludiq.AotList"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"Speed","value":{"$content":6.0,"$type":"System.Single"},"$version":"A"},{"name":"Jump","value":{"$content":10.0,"$type":"System.Single"},"$version":"A"},{"name":"HasKey","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"Health","value":{"$content":3,"$type":"System.Int32"},"$version":"A"},{"name":"ProjectilesPickup","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"},{"name":"JumpTimeMax","value":{"$content":0.3,"$type":"System.Single"},"$version":"A"},{"name":"GroundCheckCircleRadius","value":{"$content":0.25,"$type":"System.Single"},"$version":"A"},{"name":"WallCheckDistance","value":{"$content":0.4,"$type":"System.Single"},"$version":"A"},{"name":"WallCheckPosY","value":{"$content":1.5,"$type":"System.Single"},"$version":"A"},{"name":"WallSlidingSpeed","value":{"$content":2.0,"$type":"System.Single"},"$version":"A"},{"name":"CanMeleeAttack","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"},{"name":"MeleeWeapon","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"HoldingGunTimeOutDuration","value":{"$content":1.5,"$type":"System.Single"},"$version":"A"},{"name":"Bullet","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"DashEffect","value":{"$content":2,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"ArmPosition","value":{"$content":3,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"AttackDelayTime","value":{"$content":1.0,"$type":"System.Single"},"$version":"A"},{"name":"GunDelayTime","value":{"$content":0.2,"$type":"System.Single"},"$version":"A"},{"name":"AttackCount","value":{"$content":0.0,"$type":"System.Single"},"$version":"A"},{"name":"Ellen_Hurt_Sounds","value":{"$content":[{"$content":4,"$type":"UnityEngine.Object"},{"$content":5,"$type":"UnityEngine.Object"},{"$content":6,"$type":"UnityEngine.Object"},{"$content":7,"$type":"UnityEngine.Object"}],"$type":"Ludiq.AotList"},"$version":"A"},{"name":"Ellen_Footstep_Sounds","value":{"$content":[{"$content":8,"$type":"UnityEngine.Object"},{"$content":9,"$type":"UnityEngine.Object"},{"$content":10,"$type":"UnityEngine.Object"},{"$content":11,"$type":"UnityEngine.Object"}],"$type":"Ludiq.AotList"},"$version":"A"},{"name":"Ellen_Ranged_Sounds","value":{"$content":[{"$content":12,"$type":"UnityEngine.Object"},{"$content":13,"$type":"UnityEngine.Object"},{"$content":14,"$type":"UnityEngine.Object"},{"$content":15,"$type":"UnityEngine.Object"}],"$type":"Ludiq.AotList"},"$version":"A"},{"name":"CanEnterPortal","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"},{"name":"Cinemachine","value":{"$content":16,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 6863397899825297250}
     - {fileID: 1935948280087688, guid: 0caa0c9b550c1c544ad0dc351832cd5c, type: 3}
@@ -5083,6 +5083,7 @@ MonoBehaviour:
     - {fileID: 8300000, guid: 4feeb7d01b9495e40a77afe714cc42fb, type: 3}
     - {fileID: 8300000, guid: 597f3ddb503a1a949aacba2243f8e9a4, type: 3}
     - {fileID: 8300000, guid: 22865ea94508cf449ac641e506b664e5, type: 3}
+    - {fileID: 0}
 --- !u!114 &1770681763
 MonoBehaviour:
   m_ObjectHideFlags: 0
